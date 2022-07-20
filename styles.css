@@ -1,0 +1,9 @@
+h1 {
+    font: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: palevioletred
+}
+
+button {
+    background-color: aqua;
+}
