@@ -12,6 +12,10 @@ app.get('/css', (req, res) => {
     res.sendFile(path.join(__dirname, "../styles.css"))
 })
 
+app.get('/js', (req, res) => {
+    res.sendFile(path.join(__dirname, "../js"))
+})
+
 const port = process.env.PORT || 8008
 
 app.listen(port, () => {
